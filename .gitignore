@@ -6,6 +6,28 @@ __pycache__/
 # C extensions
 *.so
 
+# Données brutes et traitées
+data/
+AleaRG_Fxx_L93/
+data_inondation_zip/
+data_zip/
+
+# Fichiers volumineux de données
+*.csv
+*.csv.gz
+*.zip
+*.7z
+*.gpkg
+*.geojson
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+
+# Notebooks checkpoints éventuels
+.ipynb_checkpoints/
+
 # Distribution / packaging
 .Python
 build/
